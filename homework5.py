@@ -1,0 +1,11 @@
+immutable_var = (1984, "old", True)
+print(immutable_var*2)
+print(type(immutable_var))
+my_string = input("Input any phrase: ")
+mutable_var = my_string.split()
+print(mutable_var)
+mutable_var[-2] = "was"
+mutable_var.reverse()
+print(mutable_var)
+mutable_var.append("the end")
+print(mutable_var)
