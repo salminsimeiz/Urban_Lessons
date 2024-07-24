@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="610e252c-6fe9-4881-8125-87ef2bf0b90a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/learning24.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1hard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks1-4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks1-5_old.py" afterDir="false" />
+    <list default="true" id="610e252c-6fe9-4881-8125-87ef2bf0b90a" name="Changes" comment="v1.0.0">
+      <change afterPath="$PROJECT_DIR$/module_2_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,27 +37,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.homework1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.homework2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.homework3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.homework4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.homework5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.homework6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module1hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tasks1-4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tasks1-5_old.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowCommit.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/-/PycharmProjects&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.ex.executor": "Run",
+    "Python.homework1.executor": "Run",
+    "Python.homework2.executor": "Run",
+    "Python.homework3.executor": "Run",
+    "Python.homework4.executor": "Run",
+    "Python.homework5.executor": "Run",
+    "Python.homework6.executor": "Run",
+    "Python.main.executor": "Debug",
+    "Python.module1hard.executor": "Debug",
+    "Python.module_2_2.executor": "Run",
+    "Python.tasks1-4.executor": "Run",
+    "Python.tasks1-5_old.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/-/PycharmProjects",
+    "settings.editor.selected.configurable": "preferences.customizations"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="learning24" />
@@ -113,6 +98,15 @@
       <option name="presentableId" value="Default" />
       <updated>1720976420160</updated>
     </task>
+    <task id="LOCAL-00001" summary="v1.0.0">
+      <option name="closed" value="true" />
+      <created>1721657584959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721657584959</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,16 +124,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CODE_SMELLS_PROFILE" value="Default" />
     <option name="CHECK_NEW_TODO" value="false" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="v1.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0.0" />
   </component>
 </project>
