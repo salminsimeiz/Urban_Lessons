@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="610e252c-6fe9-4881-8125-87ef2bf0b90a" name="Changes" comment="v1.0.0">
+    <list default="true" id="610e252c-6fe9-4881-8125-87ef2bf0b90a" name="Changes" comment="v1.0.1">
+      <change afterPath="$PROJECT_DIR$/module_2_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_2_3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
     "Python.module1hard.executor": "Debug",
     "Python.module_2_2.executor": "Run",
     "Python.module_2_3.executor": "Run",
+    "Python.module_2_4.executor": "Run",
     "Python.tasks1-4.executor": "Run",
     "Python.tasks1-5_old.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -122,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721902491077</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v1.0.1">
+      <option name="closed" value="true" />
+      <created>1721908334580</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721908334580</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +152,7 @@
     <option name="CODE_SMELLS_PROFILE" value="Default" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="v1.0.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.0.0" />
+    <MESSAGE value="v1.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0.1" />
   </component>
 </project>
