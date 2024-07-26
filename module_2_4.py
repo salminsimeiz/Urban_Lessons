@@ -1,17 +1,19 @@
 import time
 import psutil
+
 # вводим исходный список
 numbers = [int(number) for number in input("Введите числа через пробел ").split()]
 begin_time = time.time()
 print(f"Numbers = {numbers}")
 primes = []
 not_primes = []
-deviders = [] # вспомогательный список делителей
+deviders = []  # вспомогательный список делителей
 max_ = max(numbers)
 for num in numbers:
     deviders.clear()
-    if num == 1: continue
-    for i in range(2,max_):
+    if num == 1:
+        continue
+    for i in range(2, max_):
         if num % i == 0:
             deviders.append(i)
     if len(deviders) > 1:
