@@ -21,6 +21,6 @@ for num in numbers:
 print(f"Primes: {primes}")
 print(f"Not Primes: {not_primes}")
 end_time = time.time()
-working_time = begin_time - end_time
+working_time = end_time - begin_time
 print(f"Время работы програмы: {working_time} c.")
 print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
