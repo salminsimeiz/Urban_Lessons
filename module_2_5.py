@@ -1,6 +1,3 @@
-from typing import List
-
-
 def get_matrix(n: int, m: int, volume: int) -> list:
     if n <= 0 or m <= 0 or volume <= 0:
      matrix = []
