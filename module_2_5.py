@@ -1,13 +1,13 @@
 def get_matrix(n: int, m: int, volume: int) -> list:
-    if n <= 0 or m <= 0 or volume <= 0:
-     matrix = []
-    else:
+    if n > 0 and m > 0 and volume > 0:
         matrix = []
         el = []
         for i in range(n):
             matrix.append(el)
         for j in range(m):
             el.append(volume)
+    else:
+        matrix = []
     return matrix
 
 
