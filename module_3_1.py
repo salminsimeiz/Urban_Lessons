@@ -11,7 +11,7 @@ def string_info(string: str) -> ():
     return len(string), string.upper(), string.lower()
 
 
-def is_contains(string: str, list_to_search: list) -> True | False:
+def is_contains(string: str, list_to_search: ["", "", ""]) -> True | False:
     count_calls()
     new_list = []
     for element in list_to_search:
