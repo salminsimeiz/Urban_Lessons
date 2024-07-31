@@ -24,6 +24,7 @@ def is_contains(string: str, list_to_search: list) -> True | False:
 
 print(string_info("BaLaBon"))
 print(string_info("DURLex"))
+print(is_contains("MaloPomalu", ["Honolulu", "TOMATO", "malopomalu"]))
 print(is_contains("Hamster", ["ham", "HaMsTeR", "hamOn"]))
 print(is_contains("bella", ["chao", "Shalom", "Hi"]))
 print(calls)
