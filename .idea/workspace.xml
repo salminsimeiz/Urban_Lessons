@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="610e252c-6fe9-4881-8125-87ef2bf0b90a" name="Changes" comment="v1.1.1">
-      <change afterPath="$PROJECT_DIR$/module_3_2.py" afterDir="false" />
+    <list default="true" id="610e252c-6fe9-4881-8125-87ef2bf0b90a" name="Changes" comment="v1.0.0">
+      <change afterPath="$PROJECT_DIR$/module_3_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +26,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/module_2_5.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tasks1-4.py" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -58,6 +61,7 @@
     "Python.module_2_5var.executor": "Run",
     "Python.module_3_1.executor": "Run",
     "Python.module_3_2.executor": "Run",
+    "Python.module_3_3.executor": "Run",
     "Python.tasks1-4.executor": "Run",
     "Python.tasks1-5_old.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -251,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722432381666</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="v1.0.0">
+      <option name="closed" value="true" />
+      <created>1722627943681</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1722627943681</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,9 +283,9 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="v1.0.2" />
     <MESSAGE value="v1.1.0" />
-    <MESSAGE value="v1.0.0" />
     <MESSAGE value="v1.0.1" />
     <MESSAGE value="v1.1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.1.1" />
+    <MESSAGE value="v1.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0.0" />
   </component>
 </project>
