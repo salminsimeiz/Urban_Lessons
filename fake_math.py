@@ -5,4 +5,5 @@ def divide(first: int, second: int) -> float:
         return first / second
 
 
-print(divide(3, 1))
+if __name__ is "__main__":
+    print(divide(3, 1))
