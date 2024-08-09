@@ -8,4 +8,5 @@ def divide(first: int, second: int) -> float:
         return first / second
 
 
-print(divide(15, 0))
+if __name__ is "__main__":
+    print(divide(15, 0))
