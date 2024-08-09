@@ -8,4 +8,4 @@ def divide(first: int, second: int) -> float:
         return first / second
 
 
-print(divide(15,0))
+print(divide(15, 0))
