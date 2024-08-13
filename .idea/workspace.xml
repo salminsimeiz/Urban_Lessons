@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="610e252c-6fe9-4881-8125-87ef2bf0b90a" name="Changes" comment="v1.0.0">
-      <change afterPath="$PROJECT_DIR$/true_math.py" afterDir="false" />
+    <list default="true" id="610e252c-6fe9-4881-8125-87ef2bf0b90a" name="Changes" comment="v1.0.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wonder_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/wonder_words.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +66,13 @@
     "Python.module_3_4.executor": "Run",
     "Python.module_3_5.executor": "Run",
     "Python.module_3_hard.executor": "Debug",
+    "Python.module_4_1.executor": "Run",
     "Python.proba.executor": "Run",
     "Python.proba_1.executor": "Run",
     "Python.tasks1-4.executor": "Run",
     "Python.tasks1-5_old.executor": "Run",
     "Python.true_math.executor": "Run",
+    "Python.wonder_words.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -345,7 +347,71 @@
       <option name="project" value="LOCAL" />
       <updated>1723214554417</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="v1.0.0">
+      <option name="closed" value="true" />
+      <created>1723215233315</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1723215233315</updated>
+    </task>
+    <task id="LOCAL-00027" summary="v1.0.1">
+      <option name="closed" value="true" />
+      <created>1723215314012</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1723215314012</updated>
+    </task>
+    <task id="LOCAL-00028" summary="v1.0.1">
+      <option name="closed" value="true" />
+      <created>1723215363565</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723215363565</updated>
+    </task>
+    <task id="LOCAL-00029" summary="v1.0.1">
+      <option name="closed" value="true" />
+      <created>1723215991171</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1723215991171</updated>
+    </task>
+    <task id="LOCAL-00030" summary="v1.0.1">
+      <option name="closed" value="true" />
+      <created>1723216065619</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1723216065619</updated>
+    </task>
+    <task id="LOCAL-00031" summary="v1.0.1">
+      <option name="closed" value="true" />
+      <created>1723216143136</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1723216143136</updated>
+    </task>
+    <task id="LOCAL-00032" summary="v1.0.1">
+      <option name="closed" value="true" />
+      <created>1723216161177</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1723216161177</updated>
+    </task>
+    <task id="LOCAL-00033" summary="v1.0.2">
+      <option name="closed" value="true" />
+      <created>1723584382231</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1723584382231</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,12 +429,12 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CODE_SMELLS_PROFILE" value="Default" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="v1.0.2" />
     <MESSAGE value="v1.1.0" />
-    <MESSAGE value="v1.0.1" />
     <MESSAGE value="v1.1.1" />
     <MESSAGE value="v1.0.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.0.0" />
+    <MESSAGE value="v1.0.1" />
+    <MESSAGE value="v1.0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
