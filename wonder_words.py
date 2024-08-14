@@ -18,8 +18,10 @@ def new_words():
     variant = set(words)
     answer = ", ".join(rdict.intersection(variant))
     result_entry.delete(1.0, "end")
-    result_entry.insert(1.0, answer)
-    return answer
+    if answer == "":
+        result_entry.insert(1.0, "Нет вариантов")
+    else:
+        result_entry.insert(1.0, answer)
 
 
 window = tk.Tk()
