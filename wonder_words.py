@@ -16,7 +16,7 @@ def new_words():
         x = ("".join(i))
         words.append(x)
     variant = set(words)
-    answer = rdict.intersection(variant)
+    answer = ", ".join(rdict.intersection(variant))
     result_entry.delete(1.0, "end")
     result_entry.insert(1.0, answer)
     return answer
