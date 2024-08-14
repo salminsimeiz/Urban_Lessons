@@ -13,7 +13,7 @@ def new_words():
     word = word_entry.get().lower()
     length = int(length_entry.get())
     for i in itertools.permutations(word, length):
-        x = ("".join(i))
+        x = "".join(i)
         words.append(x)
     variant = set(words)
     answer = ", ".join(rdict.intersection(variant))
