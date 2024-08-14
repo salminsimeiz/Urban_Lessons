@@ -4,8 +4,8 @@ import tkinter as tk
 
 def new_words():
     a = []
-    fhand = open("russian_nouns.txt", "r", encoding="utf-8")
-    for line in fhand:
+    f_hand = open("russian_nouns.txt", "r", encoding="utf-8")
+    for line in f_hand:
         line = line.rstrip()
         a.append(line)
     rdict = set(a)
