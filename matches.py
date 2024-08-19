@@ -19,7 +19,7 @@ def match_stat(m_length: float, gap: float, num: int) -> []:
     :param gap: расстояние между параллельными прямыми
     :param num: число экспериментов (бросаний спички)
     """
-    global x, y, simulated
+    (x, y, simulated) = ([], [], [])
     while gap > 0:
         n = 0
         angle_min = acos(gap / m_length)
@@ -34,14 +34,11 @@ def match_stat(m_length: float, gap: float, num: int) -> []:
     return x, y, simulated
 
 
-x = []
-y = []
-simulated = []
 match_stat(8, 1.5, 1000)
-plt.plot(x, simulated, color="red")
-plt.scatter(x, y, color="green", marker="o")
+plt.plot(match_stat(8, 1.5, 1000)[0], match_stat(8, 1.5, 1000)[2], color="red")
+plt.scatter(match_stat(8, 1.5, 1000)[0], match_stat(8, 1.5, 1000)[1], color="green", marker="o")
 match_stat(8, 1.5, 50000)
-plt.scatter(x, y, marker="+")
+plt.scatter(match_stat(8, 1.5, 50000)[0], match_stat(8, 1.5, 50000)[1], marker="+")
 plt.xlabel("Относительная ширина щели")
 plt.ylabel("Вероятность")
 plt.title("Зависимость вероятности от геометрии")
