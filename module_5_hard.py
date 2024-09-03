@@ -62,7 +62,10 @@ class Video:
         self.adult_mode = adult_mode
 
     def __str__(self):
-        return f"{self.title}, {self.duration}, {self.adult_mode}"
+        if self.adult_mode is False:
+            return f"{self.title}, {self.duration}, 18+"
+        else:
+            return f"{self.title}, {self.duration}, 0+"
 
 
 class UrTube:
@@ -106,7 +109,7 @@ class UrTube:
                 t_tle = input("title? ")
                 dur_n = int(input("duration? "))
                 time_n = 0
-                ad_mode = bool(int(input("18+ (0/1) ")))
+                ad_mode = bool(int(input("0+:? (0/1) ")))
                 film = Video(t_tle, dur_n, time_n, ad_mode)
                 for item in self.videos:
                     if item.title == film.title:
@@ -120,14 +123,14 @@ class UrTube:
                     fl = False
             print("СПИСОК ФИЛЬМОВ:")
             for item in self.videos:
-                print(f"{item.title}, {item.adult_mode}")
+                print(item)
         else:
             exit()
 
-    def get_video(self, word: str) -> list:
+    def get_video(self, w_d: str) -> list:
         film_lst = []
         for item in self.videos:
-            if word.lower() in item.title.lower():
+            if w_d.lower() in item.title.lower():
                 film_lst.append(item.title)
         return film_lst
 
@@ -135,7 +138,7 @@ class UrTube:
         film_title = input("Для просмотра введите название фильма: ")
         for item in self.videos:
             if film_title == item.title:
-                if (ur.current_user.age > 18 and item.adult_mode == False) or item.adult_mode == True:
+                if (ur.current_user.age > 18 and item.adult_mode is False) or item.adult_mode is True:
                     for t in range(item.duration + 1):
                         item.time_now = t
                         print(t, end=" ")
@@ -165,7 +168,10 @@ if __name__ == "__main__":
         ur.get_video(word)
         print(ur.get_video(word))
         ur.watch_video()
-        ur.log_out()
+        ex = input("Выйти из сервиса?(y/n) ")
+        if ex == "y":
+            ur.log_out()
+            print(ur.current_user)
         exit()
     elif int(hello) == 2:
         ur.log_in()
