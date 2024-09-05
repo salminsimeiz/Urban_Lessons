@@ -8,9 +8,9 @@ class User:
         self.age = age
 
     def __str__(self):
-        return f"{self.nickname}, {self.password}, {self.age}"
+        return f"{self.nickname}, {self.age}"
 
-
+ 
 # Проверка сложности паролей
 def password_check(word: str):
     if len(word) < 8 or word.islower() or word.isalpha():
@@ -63,30 +63,29 @@ class Video:
 
     def __str__(self):
         if self.adult_mode is False:
-            return f"{self.title}, {self.duration}, 18+"
+            return f"{self.title}, 18+"
         else:
-            return f"{self.title}, {self.duration}, 0+"
+            return f"{self.title}, 0+"
 
 
 class UrTube:
+    users = []
+    videos = []
     def __init__(self):
-        self.users = []
-        self.videos = []
         self.current_user = None
 
     def log_in(self):
-        f = True
-        while f is True:
-            n = input("Введите логин: ")
-            p = input("Введите пароль: ")
-            for item in self.users:
-                if item.nickname == n and item.password == hash(p):
-                    self.current_user = item
-                    f = False
-                    break
-            else:
-                print("Такого пользователя нет - повторите ввод")
-                f = True
+        n = input("Введите логин: ")
+        p = input("Введите пароль: ")
+        for item in self.users:
+            if item.nickname == n and item.password == hash(p):
+                self.current_user = item
+                break
+        else:
+            print("Пароль/Логин введены неправильно.")
+            sleep(2)
+            print("По-видимому, Вы забыли пароль - зарегистрируйтесь заново")
+            exit()
 
     def log_out(self):
         self.current_user = None
@@ -156,7 +155,6 @@ if __name__ == "__main__":
 # прямой вход в сервис не реализован, поскольку не сохранена база юзеров в файле
     hello = input("Здравствуйте, Вы хотите зарегистрироваться (1) или войти в сервис(2)? ")
     if int(hello) == 1:
-        flag = True
         while True:
             if input("Хотите зарегистрироваться? (y/n) ") == "y":
                 ur.register()
@@ -164,14 +162,16 @@ if __name__ == "__main__":
                 break
         print("Войдите в сервис")
         ur.log_in()
-        word = input("Введите слово для поиска фильма: ")
-        ur.get_video(word)
-        print(ur.get_video(word))
-        ur.watch_video()
-        ex = input("Выйти из сервиса?(y/n) ")
-        if ex == "y":
-            ur.log_out()
-            print(ur.current_user)
+        while True:
+            word = input("Введите слово для поиска фильма: ")
+            ur.get_video(word)
+            print(ur.get_video(word))
+            ur.watch_video()
+            ex = input("Хотите выйти из сервиса?(y/n) ")
+            if ex == "y":
+                ur.log_out()
+                print(ur.current_user)
+                break 
         exit()
     elif int(hello) == 2:
         ur.log_in()
