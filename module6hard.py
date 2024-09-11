@@ -72,7 +72,7 @@ class Triangle(Figure):
             a, b, c = self.__sides
             s = (a + b + c) / 2
             return sqrt(s * (s - a) * (s - b) * (s - c))
-        except:
+        finally:
             return (f"Треугольник со сторонами {self.__sides[0]}, {self.__sides[1]},"
                     f" {self.__sides[2]} не существует")
 
