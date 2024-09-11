@@ -20,7 +20,7 @@ class Shop:
 
     def add(self, *products):
         for product in products:
-            if product.name and str(product.weight) in self.get_products():
+            if str(product) in self.get_products():
                 print(f"Продукт {product} уже есть в магазине")
             else:
                 f = open(self.__file_name, "a")
@@ -38,3 +38,5 @@ print(p2)
 s1.add(p1, p2, p3)
 
 print(s1.get_products())
+
+
