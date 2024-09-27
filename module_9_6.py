@@ -1,9 +1,10 @@
 def all_variants(text: str):
-    for i in range(len(text)):
-        for j in range(i + 1, len(text) + 1):
-            yield text[i:j]
+    for j in range(len(text)):
+        for i in range(len(text)):
+            if i + j + 1 <= len(text):
+                yield text[i:(i + 1 + j)]
 
 
-a = all_variants("body")
+a = all_variants("banana")
 for item in a:
     print(item)
