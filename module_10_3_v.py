@@ -2,6 +2,8 @@ from threading import Thread, Lock
 from time import sleep
 from random import randint
 
+res = []
+
 
 class Bank:
     def __init__(self):
@@ -13,19 +15,27 @@ class Bank:
             add_sum = randint(50, 500)
             with self.lock:
                 self.balance += add_sum
-                print(f"Пополнение: {add_sum} Баланс: {self.balance} ")
+                dep = f"Пополнение: {add_sum} Баланс: {self.balance} "
+                res.append(dep)
+                # print(f"Пополнение: {add_sum} Баланс: {self.balance} ")
             sleep(0.001)
 
     def take(self):
         for i in range(100):
             sub_sum = randint(50, 500)
-            print(f"Запрос на снятие {sub_sum}.")
+            request = f"Запрос на снятие {sub_sum}."
+            res.append(request)
+            # print(f"Запрос на снятие {sub_sum}.")
             with self.lock:
                 if sub_sum <= self.balance:
                     self.balance -= sub_sum
-                    print(f"Снятие: {sub_sum} Баланс: {self.balance} ")
+                    take = f"Снятие: {sub_sum} Баланс: {self.balance} "
+                    res.append(take)
+                    # print(f"Снятие: {sub_sum} Баланс: {self.balance} ")
                 else:
-                    print("Запрос отклонен, недостаточно средств")
+                    request_deny = "Запрос отклонен, недостаточно средств"
+                    res.append(request_deny)
+                    # print("Запрос отклонен, недостаточно средств")
             sleep(0.001)
 
 
@@ -40,4 +50,9 @@ th2.start()
 th1.join()
 th2.join()
 
+
+for item in res:
+    print(item)
 print(f"Итоговый баланс: {bk.balance}")
+
+
