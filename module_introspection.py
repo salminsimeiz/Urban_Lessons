@@ -1,5 +1,6 @@
 import itertools
 import tkinter as tk
+from pprint import pprint
 
 
 def new_words():
@@ -59,10 +60,11 @@ def introspection_info(item):
         print("CALLABLE: YES")
     else:
         print("CALLABLE: NO")
-    print(f"ATTRIBUTES & METHODS: {dir(item)}")
+    print("ATTRIBUTES & METHODS:")
+    pprint(dir(item))
     if hasattr(item, "__doc__"):
         doc = getattr(item, "__doc__").strip().split("\n")[0]
         print(f"DOC: {doc}")
 
 
-introspection_info(tk)
+introspection_info(new_words)
