@@ -2,7 +2,7 @@ from pprint import pprint
 
 
 def introspection_info(obj):
-    """Определяет полезную информацию об объекте (item)"""
+    """Определяет полезную информацию об объекте"""
     if hasattr(obj, "__name__"):
         print(f"NAME: {obj.__name__}")
     if hasattr(obj, "__class__"):
@@ -22,5 +22,4 @@ def introspection_info(obj):
 
 
 if __name__ == "__main__":
-    # introspection_info(obj)
-    pass
+    introspection_info(introspection_info)
