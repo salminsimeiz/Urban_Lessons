@@ -1,0 +1,20 @@
+2024-11-05 20:51:35,797 | INFO | "test_run" выполнен успешно
+2024-11-05 20:51:35,799 | INFO | "test_walk" выполнен успешно
+2024-11-05 20:52:55,976 | INFO | "test_run" выполнен успешно
+2024-11-05 20:52:55,976 | INFO | "test_walk" выполнен успешно
+2024-11-05 20:54:08,388 | WARNING | Неверный тип данных для объекта Runner
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\learning24\test_12_4.py", line 26, in test_run
+    r_2 = rt_with_exceptions.Runner(False, 10)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\-\PycharmProjects\learning24\rt_with_exceptions.py", line 7, in __init__
+    raise TypeError(f'Имя может быть только строкой, передано {type(name).__name__}')
+TypeError: Имя может быть только строкой, передано bool
+2024-11-05 20:54:08,390 | WARNING | Неверная скорость для Runner
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\learning24\test_12_4.py", line 15, in test_walk
+    r_1 = rt_with_exceptions.Runner("Вася", -5)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\-\PycharmProjects\learning24\rt_with_exceptions.py", line 12, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -5
