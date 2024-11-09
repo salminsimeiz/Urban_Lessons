@@ -1,4 +1,4 @@
-from aiogram import Bot, Dispatcher, executor
+from aiogram import Bot, Dispatcher, executor, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from config import TOKEN
@@ -15,6 +15,15 @@ class UserState(StatesGroup):
     age = State()
     growth = State()
     weight = State()
+
+
+@dp.message_handler(commands=["start"])
+async def start_command(message: types.Message):
+    first_name = message.from_user.first_name
+    last_name = message.from_user.last_name or ""
+    await message.reply(f"Привет, {first_name} {last_name}. Хотите рассчитать суточную норму калорий?"
+                        f"Отправьте мне запрос 'Calories'")
+    logging.info(f"Производится расчет для {first_name} {last_name}")
 
 
 @dp.message_handler(text=["Calories"])
@@ -43,7 +52,7 @@ async def send_calories(message, state):
     data = await state.get_data()
     await message.answer(f"Необходимый рацион килокалорий в день:"
                          f" {int(data['weight']) * 10 + float(data['growth']) * 6.25 - int(data['age']) * 5 - 161}")
-    logging.info("Расчет произведен")
+    logging.info(f"Расчет произведен")
 
     await state.finish()
 
