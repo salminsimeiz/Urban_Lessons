@@ -24,3 +24,169 @@
 2024-11-09 13:17:21,873 | INFO | Расчет произведен 
 2024-11-09 13:17:35,104 | INFO | Stop polling...
 2024-11-09 13:17:35,105 | WARNING | Goodbye!
+2024-11-09 13:21:58,092 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-09 13:21:58,223 | WARNING | Updates were skipped successfully.
+2024-11-09 13:21:58,223 | INFO | Start polling.
+2024-11-09 13:27:34,219 | INFO | Производится расчет для Daria Salmina
+2024-11-09 13:27:57,975 | INFO | Расчет произведен 
+2024-11-09 13:44:53,717 | INFO | Stop polling...
+2024-11-09 13:44:53,717 | WARNING | Goodbye!
+2024-11-09 13:54:43,862 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-09 13:54:43,956 | WARNING | Updates were skipped successfully.
+2024-11-09 13:54:43,956 | INFO | Start polling.
+2024-11-09 14:16:44,411 | INFO | Производится расчет для Larisa 
+2024-11-09 14:17:38,934 | INFO | Расчет произведен 
+2024-11-09 20:13:02,871 | ERROR | Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiohttp\client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiohttp\client.py", line 586, in _request
+    await resp.start(conn)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiohttp\client_reqrep.py", line 920, in start
+    self._continue = None
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiohttp\helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2024-11-09 20:13:08,312 | INFO | Производится расчет для SmokerWhy¿💯 
+2024-11-09 20:13:08,349 | INFO | Производится расчет для Julia Salmina
+2024-11-09 20:13:08,378 | INFO | Производится расчет для Julia Salmina
+2024-11-09 20:13:08,378 | INFO | Производится расчет для Eugene 
+2024-11-09 20:13:12,213 | INFO | Stop polling...
+2024-11-09 20:13:12,216 | WARNING | Goodbye!
+2024-11-09 20:14:34,879 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-09 20:14:34,992 | WARNING | Updates were skipped successfully.
+2024-11-09 20:14:34,992 | INFO | Start polling.
+2024-11-09 20:14:47,176 | INFO | Stop polling...
+2024-11-09 20:14:47,177 | WARNING | Goodbye!
+2024-11-09 20:16:09,486 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-09 20:16:09,590 | WARNING | Updates were skipped successfully.
+2024-11-09 20:16:09,590 | INFO | Start polling.
+2024-11-09 20:16:49,214 | INFO | Расчет произведен 
+2024-11-09 20:19:11,553 | INFO | Расчет произведен 
+2024-11-09 20:30:49,825 | INFO | Расчет произведен 
+2024-11-09 20:50:57,917 | INFO | Stop polling...
+2024-11-09 20:50:57,918 | WARNING | Goodbye!
+2024-11-09 21:34:02,817 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-09 21:34:02,924 | WARNING | Updates were skipped successfully.
+2024-11-09 21:34:02,924 | INFO | Start polling.
+2024-11-09 21:35:04,885 | INFO | Производится расчет для Eugene 
+2024-11-09 21:35:47,991 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-33' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=ValueError("invalid literal for int() with base 10: 'index'")>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_13_4.py", line 54, in send_calories
+    f"{int(data['weight']) * 10 + float(data['growth']) * 6.25 - int(data['age']) * 5 - 161}\n"
+ValueError: invalid literal for int() with base 10: 'index'
+2024-11-09 21:36:54,639 | INFO | Stop polling...
+2024-11-09 21:36:54,640 | WARNING | Goodbye!
+2024-11-09 21:40:50,770 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-09 21:40:50,897 | WARNING | Updates were skipped successfully.
+2024-11-09 21:40:50,897 | INFO | Start polling.
+2024-11-09 21:41:09,165 | INFO | Производится расчет для Eugene 
+2024-11-09 21:41:46,054 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=ValueError("invalid literal for int() with base 10: 'index'")>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_13_4.py", line 54, in send_calories
+    f"{int(data['weight']) * 10 + float(data['growth']) * 6.25 - int(data['age']) * 5 - 161}\n"
+ValueError: invalid literal for int() with base 10: 'index'
+2024-11-09 21:41:58,426 | INFO | Stop polling...
+2024-11-09 21:41:58,427 | WARNING | Goodbye!
+2024-11-09 21:59:09,211 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-09 21:59:09,339 | WARNING | Updates were skipped successfully.
+2024-11-09 21:59:09,339 | INFO | Start polling.
+2024-11-09 21:59:59,000 | INFO | Производится расчет для Eugene 
+2024-11-09 22:00:54,316 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-33' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=ValueError("invalid literal for int() with base 10: 'Index'")>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_13_4.py", line 54, in send_calories
+    f"{int(data['weight']) * 10 + float(data['growth']) * 6.25 - int(data['age']) * 5 - 161}\n"
+ValueError: invalid literal for int() with base 10: 'Index'
+2024-11-09 22:01:03,779 | INFO | Stop polling...
+2024-11-09 22:01:03,779 | WARNING | Goodbye!
+2024-11-09 22:09:16,016 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-09 22:09:16,114 | WARNING | Updates were skipped successfully.
+2024-11-09 22:09:16,114 | INFO | Start polling.
+2024-11-09 22:09:57,427 | INFO | Производится расчет для Eugene 
+2024-11-09 22:10:33,713 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=ValueError("invalid literal for int() with base 10: 'Index'")>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_13_4.py", line 54, in send_calories
+    f"{int(data['weight']) * 10 + float(data['growth']) * 6.25 - int(data['age']) * 5 - 161}\n"
+ValueError: invalid literal for int() with base 10: 'Index'
+2024-11-09 22:11:11,894 | INFO | Stop polling...
+2024-11-09 22:11:11,895 | WARNING | Goodbye!
+2024-11-09 22:18:31,501 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-09 22:18:31,599 | WARNING | Updates were skipped successfully.
+2024-11-09 22:18:31,599 | INFO | Start polling.
+2024-11-09 22:18:53,639 | INFO | Производится расчет для Eugene 
+2024-11-09 22:19:22,903 | INFO | Расчет произведен 
+2024-11-09 22:20:11,283 | INFO | Stop polling...
+2024-11-09 22:20:11,284 | WARNING | Goodbye!
+2024-11-09 22:21:03,885 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-09 22:21:03,988 | WARNING | Updates were skipped successfully.
+2024-11-09 22:21:03,988 | INFO | Start polling.
+2024-11-09 22:21:27,361 | INFO | Производится расчет для Eugene 
+2024-11-09 22:21:53,959 | INFO | Расчет произведен 
+2024-11-09 22:23:04,273 | INFO | Stop polling...
+2024-11-09 22:23:04,273 | WARNING | Goodbye!
+2024-11-09 22:23:06,978 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-09 22:23:07,077 | WARNING | Updates were skipped successfully.
+2024-11-09 22:23:07,077 | INFO | Start polling.
+2024-11-09 22:23:27,366 | INFO | Производится расчет для Eugene 
+2024-11-09 22:23:52,478 | INFO | Расчет произведен 
+2024-11-09 22:26:49,190 | INFO | Stop polling...
+2024-11-09 22:26:49,191 | WARNING | Goodbye!
+2024-11-09 22:36:06,795 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-09 22:36:06,891 | WARNING | Updates were skipped successfully.
+2024-11-09 22:36:06,894 | INFO | Start polling.
+2024-11-09 22:36:49,586 | INFO | Производится расчет для Larisa 
+2024-11-09 22:37:33,303 | INFO | Расчет произведен 
+2024-11-09 22:39:31,668 | INFO | Stop polling...
+2024-11-09 22:39:31,669 | WARNING | Goodbye!
