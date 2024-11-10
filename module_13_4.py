@@ -51,6 +51,7 @@ async def send_calories(message, state):
     await state.update_data(weight=message.text)
     data = await state.get_data()
     index = round(float(data['weight']) * 10000 / float(data['growth']) ** 2, 1)
+    calories = int(data['weight']) * 10 + float(data['growth']) * 6.25 - int(data['age']) * 5
     if index <= 16:
         bmi = "выраженный дефицит массы тела"
     elif 16 < index <= 18.5:
@@ -65,14 +66,12 @@ async def send_calories(message, state):
         bmi = "ожирение второй степени"
     elif 40 < index:
         bmi = "ожирение третьей степени"
-    await message.answer(f"Необходимый рацион килокалорий в день для женщин:"
-                         f"{int(data['weight']) * 10 + float(data['growth']) * 6.25 - int(data['age']) * 5 - 161}\n"
-                         f"для мужчин:"
-                         f"{int(data['weight']) * 10 + float(data['growth']) * 6.25 - int(data['age']) * 5 + 5}\n"
+    await message.answer(f"Необходимый рацион килокалорий в день для женщин: {calories - 161}\n"
+                         f"для мужчин: {calories + 5}\n"
                          f"Расчет калорийности производится по упрощенной формуле Миффлина - Сан Жеора.\n"
                          f"Индекс массы тела {index} - у вас {bmi}")
 
-    logging.info(f"Расчет произведен ")
+    logging.info(f"Расчет произведен")
 
     await state.finish()
 
