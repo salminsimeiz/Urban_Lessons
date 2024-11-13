@@ -5,3 +5,222 @@
 2024-11-10 22:58:40,202 | INFO | Расчет произведен
 2024-11-10 22:59:07,512 | INFO | Stop polling...
 2024-11-10 22:59:07,513 | WARNING | Goodbye!
+2024-11-11 00:09:52,381 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-11 00:09:52,491 | WARNING | Updates were skipped successfully.
+2024-11-11 00:09:52,492 | INFO | Start polling.
+2024-11-11 00:10:40,759 | INFO | Производится расчет для SmokerWhy¿💯 
+2024-11-11 00:11:25,486 | INFO | Расчет произведен
+2024-11-11 00:12:12,613 | INFO | Расчет произведен
+2024-11-11 00:12:54,365 | INFO | Расчет произведен
+2024-11-11 00:13:20,452 | INFO | Stop polling...
+2024-11-11 00:13:20,454 | WARNING | Goodbye!
+2024-11-11 09:53:57,015 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-11 09:53:57,129 | WARNING | Updates were skipped successfully.
+2024-11-11 09:53:57,129 | INFO | Start polling.
+2024-11-11 09:57:54,115 | INFO | Производится расчет для Юрий Афонькин
+2024-11-11 09:58:44,334 | INFO | Расчет произведен
+2024-11-11 10:01:01,798 | INFO | Stop polling...
+2024-11-11 10:01:01,799 | WARNING | Goodbye!
+2024-11-11 20:42:05,788 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-11 20:42:05,915 | WARNING | Updates were skipped successfully.
+2024-11-11 20:42:05,916 | INFO | Start polling.
+2024-11-11 20:42:20,678 | INFO | Производится расчет для Eugene 
+2024-11-11 20:42:56,165 | INFO | Расчет произведен
+2024-11-11 20:44:04,358 | INFO | Расчет произведен
+2024-11-11 20:48:16,832 | INFO | Stop polling...
+2024-11-11 20:48:16,834 | WARNING | Goodbye!
+2024-11-13 11:47:31,239 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 11:47:31,397 | WARNING | Updates were skipped successfully.
+2024-11-13 11:47:31,397 | INFO | Start polling.
+2024-11-13 11:47:54,357 | INFO | Производится расчет для Eugene 
+2024-11-13 11:48:50,158 | INFO | Stop polling...
+2024-11-13 11:48:50,159 | WARNING | Goodbye!
+2024-11-13 11:48:53,996 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 11:48:54,204 | WARNING | Updates were skipped successfully.
+2024-11-13 11:48:54,204 | INFO | Start polling.
+2024-11-13 11:49:10,512 | INFO | Производится расчет для Eugene 
+2024-11-13 11:50:30,845 | INFO | Расчет произведен
+2024-11-13 12:04:01,410 | INFO | Stop polling...
+2024-11-13 12:04:01,410 | WARNING | Goodbye!
+2024-11-13 16:04:55,002 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 16:04:55,114 | WARNING | Updates were skipped successfully.
+2024-11-13 16:04:55,115 | INFO | Start polling.
+2024-11-13 16:06:36,480 | INFO | Производится расчет для Eugene 
+2024-11-13 16:06:41,010 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileNotFoundError(2, 'No such file or directory')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_3.py", line 63, in buying_list
+    with open("files/1.png", "rb") as img:
+FileNotFoundError: [Errno 2] No such file or directory: 'files/1.png'
+2024-11-13 16:07:44,881 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileNotFoundError(2, 'No such file or directory')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_3.py", line 63, in buying_list
+    with open("files/1.png", "rb") as img:
+FileNotFoundError: [Errno 2] No such file or directory: 'files/1.png'
+2024-11-13 16:08:01,666 | INFO | Stop polling...
+2024-11-13 16:08:01,667 | WARNING | Goodbye!
+2024-11-13 16:12:24,595 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 16:12:24,738 | WARNING | Updates were skipped successfully.
+2024-11-13 16:12:24,739 | INFO | Start polling.
+2024-11-13 16:12:30,267 | INFO | Stop polling...
+2024-11-13 16:12:30,267 | WARNING | Goodbye!
+2024-11-13 16:12:36,477 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 16:12:36,594 | WARNING | Updates were skipped successfully.
+2024-11-13 16:12:36,595 | INFO | Start polling.
+2024-11-13 16:12:50,731 | INFO | Производится расчет для Eugene 
+2024-11-13 16:13:00,831 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileNotFoundError(2, 'No such file or directory')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_3.py", line 63, in buying_list
+    with open("files/1.png", "rb") as img:
+FileNotFoundError: [Errno 2] No such file or directory: 'files/1.png'
+2024-11-13 16:13:53,619 | INFO | Stop polling...
+2024-11-13 16:13:53,620 | WARNING | Goodbye!
+2024-11-13 16:15:13,417 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 16:15:13,557 | WARNING | Updates were skipped successfully.
+2024-11-13 16:15:13,558 | INFO | Start polling.
+2024-11-13 16:15:27,246 | INFO | Производится расчет для Eugene 
+2024-11-13 16:16:41,889 | INFO | Stop polling...
+2024-11-13 16:16:41,889 | WARNING | Goodbye!
+2024-11-13 19:20:37,239 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 19:20:37,360 | WARNING | Updates were skipped successfully.
+2024-11-13 19:20:37,362 | INFO | Start polling.
+2024-11-13 19:21:30,155 | INFO | Производится расчет для Eugene 
+2024-11-13 19:23:29,120 | INFO | Stop polling...
+2024-11-13 19:23:29,122 | WARNING | Goodbye!
+2024-11-13 19:23:36,294 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 19:23:36,424 | WARNING | Updates were skipped successfully.
+2024-11-13 19:23:36,425 | INFO | Start polling.
+2024-11-13 19:24:44,650 | INFO | Stop polling...
+2024-11-13 19:24:44,651 | WARNING | Goodbye!
+2024-11-13 19:27:09,371 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 19:27:09,477 | WARNING | Updates were skipped successfully.
+2024-11-13 19:27:09,477 | INFO | Start polling.
+2024-11-13 19:27:28,890 | INFO | Производится расчет для Eugene 
+2024-11-13 19:29:14,119 | INFO | Stop polling...
+2024-11-13 19:29:14,119 | WARNING | Goodbye!
+2024-11-13 19:29:19,935 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 19:29:20,077 | WARNING | Updates were skipped successfully.
+2024-11-13 19:29:20,077 | INFO | Start polling.
+2024-11-13 19:29:40,394 | INFO | Производится расчет для Eugene 
+2024-11-13 19:32:33,587 | INFO | Stop polling...
+2024-11-13 19:32:33,588 | WARNING | Goodbye!
+2024-11-13 19:32:37,164 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 19:32:37,273 | WARNING | Updates were skipped successfully.
+2024-11-13 19:32:37,274 | INFO | Start polling.
+2024-11-13 19:33:30,697 | INFO | Производится расчет для Eugene 
+2024-11-13 19:35:03,999 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-66' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=ValueError("invalid literal for int() with base 10: 'Рассчитать'")>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_3.py", line 114, in send_calories
+    calories = int(data['weight']) * 10 + float(data['growth']) * 6.25 - int(data['age']) * 5
+ValueError: invalid literal for int() with base 10: 'Рассчитать'
+2024-11-13 19:36:40,827 | INFO | Stop polling...
+2024-11-13 19:36:40,828 | WARNING | Goodbye!
+2024-11-13 19:38:14,242 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 19:38:14,354 | WARNING | Updates were skipped successfully.
+2024-11-13 19:38:14,354 | INFO | Start polling.
+2024-11-13 19:38:35,362 | INFO | Производится расчет для Eugene 
+2024-11-13 19:39:16,427 | INFO | Расчет произведен
+2024-11-13 19:42:03,085 | INFO | Stop polling...
+2024-11-13 19:42:03,086 | WARNING | Goodbye!
+2024-11-13 21:14:11,512 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 21:14:11,629 | WARNING | Updates were skipped successfully.
+2024-11-13 21:14:11,630 | INFO | Start polling.
+2024-11-13 21:14:27,650 | INFO | Производится расчет для Eugene 
+2024-11-13 21:15:34,740 | INFO | Расчет произведен
+2024-11-13 21:17:50,166 | INFO | Stop polling...
+2024-11-13 21:17:50,166 | WARNING | Goodbye!
+2024-11-13 21:22:53,160 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 21:22:54,066 | WARNING | Updates were skipped successfully.
+2024-11-13 21:22:54,067 | INFO | Start polling.
+2024-11-13 21:23:03,691 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("answer_photo() got an unexpected keyword argument 'chank_size'")>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_3.py", line 65, in buying_list
+    await message.answer_photo(img, chank_size=10000)
+TypeError: answer_photo() got an unexpected keyword argument 'chank_size'
+2024-11-13 21:23:19,450 | INFO | Производится расчет для Eugene 
+2024-11-13 21:23:22,814 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("answer_photo() got an unexpected keyword argument 'chank_size'")>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_3.py", line 65, in buying_list
+    await message.answer_photo(img, chank_size=10000)
+TypeError: answer_photo() got an unexpected keyword argument 'chank_size'
+2024-11-13 21:23:50,674 | INFO | Stop polling...
+2024-11-13 21:23:50,676 | WARNING | Goodbye!
+2024-11-13 21:23:56,879 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 21:23:58,337 | WARNING | Updates were skipped successfully.
+2024-11-13 21:23:58,338 | INFO | Start polling.
+2024-11-13 21:25:03,696 | INFO | Расчет произведен
+2024-11-13 21:25:18,845 | INFO | Stop polling...
+2024-11-13 21:25:18,846 | WARNING | Goodbye!
+2024-11-13 21:44:44,607 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-13 21:44:44,717 | WARNING | Updates were skipped successfully.
+2024-11-13 21:44:44,717 | INFO | Start polling.
+2024-11-13 21:45:08,897 | INFO | Производится расчет для Eugene 
+2024-11-13 21:46:11,024 | INFO | Расчет произведен
+2024-11-13 21:54:03,905 | INFO | Расчет произведен
+2024-11-13 21:55:56,683 | INFO | Stop polling...
+2024-11-13 21:55:56,684 | WARNING | Goodbye!
