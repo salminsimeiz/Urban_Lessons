@@ -27,6 +27,7 @@ def initiate_db():
 def get_all_products():
     cursor.execute("SELECT * FROM Products")
     all_products = cursor.fetchall()
+    connection.commit()
     return all_products
 
 
