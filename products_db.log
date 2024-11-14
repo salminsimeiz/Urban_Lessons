@@ -1,0 +1,124 @@
+2024-11-14 16:07:47,717 | INFO | wet
+2024-11-14 16:49:20,619 | INFO | wet
+2024-11-14 16:49:51,715 | INFO | wet
+2024-11-14 16:50:55,704 | INFO | wet
+2024-11-14 16:51:26,167 | INFO | wet
+2024-11-14 16:51:39,962 | INFO | wet
+2024-11-14 16:51:48,477 | INFO | wet
+2024-11-14 16:52:18,460 | INFO | wet
+2024-11-14 16:52:29,511 | INFO | wet
+2024-11-14 16:54:27,422 | INFO | wet
+2024-11-14 17:02:20,791 | INFO | wet
+2024-11-14 17:02:21,780 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-14 17:02:21,924 | WARNING | Updates were skipped successfully.
+2024-11-14 17:02:21,925 | INFO | Start polling.
+2024-11-14 17:02:51,479 | INFO | Производится расчет для Eugene 
+2024-11-14 17:02:55,414 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileNotFoundError(2, 'No such file or directory')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_4.py", line 48, in buying_list
+    with open(f"{i}.png", "rb") as img:
+FileNotFoundError: [Errno 2] No such file or directory: '0.png'
+2024-11-14 17:03:08,803 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileNotFoundError(2, 'No such file or directory')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_4.py", line 48, in buying_list
+    with open(f"{i}.png", "rb") as img:
+FileNotFoundError: [Errno 2] No such file or directory: '0.png'
+2024-11-14 17:03:19,690 | INFO | Stop polling...
+2024-11-14 17:03:19,690 | WARNING | Goodbye!
+2024-11-14 17:04:25,459 | INFO | wet
+2024-11-14 17:04:25,854 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-14 17:04:26,004 | WARNING | Updates were skipped successfully.
+2024-11-14 17:04:26,005 | INFO | Start polling.
+2024-11-14 17:04:43,027 | INFO | Производится расчет для Eugene 
+2024-11-14 17:04:45,559 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('list indices must be integers or slices, not set')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_4.py", line 46, in buying_list
+    await message.answer(f'Название: {get_all_products()[{i}][1]} | Описание: {get_all_products()[{i}][2]} | '
+TypeError: list indices must be integers or slices, not set
+2024-11-14 17:05:00,744 | INFO | Stop polling...
+2024-11-14 17:05:00,745 | WARNING | Goodbye!
+2024-11-14 17:15:50,074 | INFO | wet
+2024-11-14 17:19:04,511 | INFO | wet
+2024-11-14 17:19:04,785 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-14 17:19:04,918 | WARNING | Updates were skipped successfully.
+2024-11-14 17:19:04,919 | INFO | Start polling.
+2024-11-14 17:19:32,380 | INFO | Производится расчет для Eugene 
+2024-11-14 17:19:58,805 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileNotFoundError(2, 'No such file or directory')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_4.py", line 48, in buying_list
+    with open(f"{i}.png", "rb") as img:
+FileNotFoundError: [Errno 2] No such file or directory: '0.png'
+2024-11-14 17:21:08,882 | INFO | Stop polling...
+2024-11-14 17:21:08,883 | WARNING | Goodbye!
+2024-11-14 17:23:51,425 | INFO | wet
+2024-11-14 17:23:51,662 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-14 17:23:51,790 | WARNING | Updates were skipped successfully.
+2024-11-14 17:23:51,790 | INFO | Start polling.
+2024-11-14 17:24:12,516 | INFO | Производится расчет для Eugene 
+2024-11-14 17:25:30,568 | INFO | Stop polling...
+2024-11-14 17:25:30,569 | WARNING | Goodbye!
+2024-11-14 17:31:32,783 | INFO | wet
+2024-11-14 17:31:33,041 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-14 17:31:33,264 | WARNING | Updates were skipped successfully.
+2024-11-14 17:31:33,264 | INFO | Start polling.
+2024-11-14 17:31:52,576 | INFO | Производится расчет для Eugene 
+2024-11-14 17:32:43,645 | INFO | Stop polling...
+2024-11-14 17:32:43,645 | WARNING | Goodbye!
+2024-11-14 17:38:36,614 | INFO | wet
+2024-11-14 17:39:35,753 | INFO | wet
+2024-11-14 17:44:30,238 | INFO | wet
+2024-11-14 17:45:27,275 | INFO | wet
+2024-11-14 17:47:04,058 | INFO | wet
+2024-11-14 17:47:58,227 | INFO | wet
+2024-11-14 17:49:12,875 | INFO | wet
+2024-11-14 17:49:13,120 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-14 17:49:13,282 | WARNING | Updates were skipped successfully.
+2024-11-14 17:49:13,282 | INFO | Start polling.
+2024-11-14 17:49:32,611 | INFO | Производится расчет для Eugene 
+2024-11-14 17:50:40,983 | INFO | Расчет произведен
+2024-11-14 17:50:56,650 | INFO | Stop polling...
+2024-11-14 17:50:56,651 | WARNING | Goodbye!
