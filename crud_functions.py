@@ -21,7 +21,7 @@ logging.info("wet")
 def initiate_db():
     try:
         for i in range(1, 5):
-            cursor.execute("INSERT INTO Products(title, description, price)  VALUES(?, ?, ?)",
+            cursor.execute("INSERT OR IGNORE  INTO Products(title, description, price)  VALUES(?, ?, ?)",
                            (f"Product{i}", f"Описание{i}", f"{i * 100}"))
     except sqlite3.DatabaseError as err:
         print("Error:", err)
