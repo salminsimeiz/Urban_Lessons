@@ -122,3 +122,566 @@ FileNotFoundError: [Errno 2] No such file or directory: '0.png'
 2024-11-14 17:50:40,983 | INFO | Расчет произведен
 2024-11-14 17:50:56,650 | INFO | Stop polling...
 2024-11-14 17:50:56,651 | WARNING | Goodbye!
+2024-11-14 21:14:47,176 | INFO | wet
+2024-11-14 21:16:33,980 | INFO | wet
+2024-11-14 21:16:34,215 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-14 21:16:35,492 | WARNING | Updates were skipped successfully.
+2024-11-14 21:16:35,493 | INFO | Start polling.
+2024-11-14 21:17:04,724 | INFO | Производится расчет для Eugene 
+2024-11-14 21:18:28,343 | INFO | Stop polling...
+2024-11-14 21:18:28,345 | WARNING | Goodbye!
+2024-11-14 21:19:23,169 | INFO | wet
+2024-11-14 21:19:34,451 | INFO | wet
+2024-11-14 21:19:35,499 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-14 21:19:35,668 | WARNING | Updates were skipped successfully.
+2024-11-14 21:19:35,669 | INFO | Start polling.
+2024-11-14 21:19:38,470 | INFO | Производится расчет для Eugene 
+2024-11-14 21:19:40,499 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=ProgrammingError('Cannot operate on a closed database.')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_4.py", line 48, in buying_list
+    vitamins = get_all_products()[i]
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\crud_functions.py", line 28, in get_all_products
+    cursor.execute("SELECT * FROM Products")
+sqlite3.ProgrammingError: Cannot operate on a closed database.
+2024-11-14 21:20:01,827 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=ProgrammingError('Cannot operate on a closed database.')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_4.py", line 48, in buying_list
+    vitamins = get_all_products()[i]
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\crud_functions.py", line 28, in get_all_products
+    cursor.execute("SELECT * FROM Products")
+sqlite3.ProgrammingError: Cannot operate on a closed database.
+2024-11-14 21:20:03,629 | INFO | Stop polling...
+2024-11-14 21:20:03,632 | WARNING | Goodbye!
+2024-11-14 21:20:42,367 | INFO | wet
+2024-11-14 21:20:51,597 | INFO | wet
+2024-11-14 21:20:52,846 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-14 21:20:52,955 | WARNING | Updates were skipped successfully.
+2024-11-14 21:20:52,955 | INFO | Start polling.
+2024-11-14 21:21:45,314 | INFO | Stop polling...
+2024-11-14 21:21:45,316 | WARNING | Goodbye!
+2024-11-14 21:22:53,875 | INFO | wet
+2024-11-14 23:08:37,483 | INFO | wet
+2024-11-14 23:08:53,901 | INFO | wet
+2024-11-14 23:10:35,776 | INFO | wet
+2024-11-15 10:51:50,612 | INFO | wet
+2024-11-15 10:54:15,241 | INFO | wet
+2024-11-15 10:56:55,499 | INFO | wet
+2024-11-15 10:57:09,368 | INFO | wet
+2024-11-15 10:58:19,507 | INFO | wet
+2024-11-15 11:09:37,115 | INFO | wet
+2024-11-15 11:12:06,902 | INFO | wet
+2024-11-15 11:13:00,944 | INFO | wet
+2024-11-15 11:14:13,660 | INFO | wet
+2024-11-15 11:15:23,734 | INFO | wet
+2024-11-15 11:16:33,902 | INFO | wet
+2024-11-15 11:17:06,778 | INFO | wet
+2024-11-15 11:38:21,397 | INFO | wet
+2024-11-15 11:38:26,138 | INFO | wet
+2024-11-15 15:39:45,615 | INFO | go
+2024-11-15 15:39:45,965 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-15 15:39:46,083 | WARNING | Updates were skipped successfully.
+2024-11-15 15:39:46,083 | INFO | Start polling.
+2024-11-15 15:40:38,140 | INFO | Производится расчет для Eugene 
+2024-11-15 15:40:49,751 | INFO | Stop polling...
+2024-11-15 15:40:49,752 | WARNING | Goodbye!
+2024-11-15 15:41:28,052 | INFO | go
+2024-11-15 15:41:28,249 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-15 15:41:28,359 | WARNING | Updates were skipped successfully.
+2024-11-15 15:41:28,360 | INFO | Start polling.
+2024-11-15 15:41:47,958 | INFO | Производится расчет для Eugene 
+2024-11-15 15:45:08,557 | INFO | Stop polling...
+2024-11-15 15:45:08,558 | WARNING | Goodbye!
+2024-11-15 15:45:13,897 | INFO | go
+2024-11-15 15:45:14,164 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-15 15:45:14,281 | WARNING | Updates were skipped successfully.
+2024-11-15 15:45:14,281 | INFO | Start polling.
+2024-11-15 15:45:32,747 | INFO | Производится расчет для Eugene 
+2024-11-15 15:47:40,931 | INFO | Stop polling...
+2024-11-15 15:47:40,932 | WARNING | Goodbye!
+2024-11-15 22:51:08,003 | INFO | go
+2024-11-15 22:51:24,277 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-15 22:51:24,402 | WARNING | Updates were skipped successfully.
+2024-11-15 22:51:24,404 | INFO | Start polling.
+2024-11-15 22:51:37,626 | INFO | Производится расчет для Eugene 
+2024-11-15 22:51:42,533 | INFO | Регистрация...
+2024-11-15 22:52:46,873 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=OperationalError('near "@mail": syntax error')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_5.py", line 76, in set_age
+    await add_user(data["username"], data["email"], data["age"])
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\crud_functions.py", line 55, in add_user
+    cursor_u.execute(f"INSERT INTO Users VALUES({username}, {email}, {age}, 1000")
+sqlite3.OperationalError: near "@mail": syntax error
+2024-11-15 22:55:31,628 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-38' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=OperationalError('near "@mail": syntax error')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_5.py", line 76, in set_age
+    await add_user(data["username"], data["email"], data["age"])
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\crud_functions.py", line 55, in add_user
+    cursor_u.execute(f"INSERT INTO Users VALUES({username}, {email}, {age}, 1000")
+sqlite3.OperationalError: near "@mail": syntax error
+2024-11-15 22:55:45,818 | INFO | Stop polling...
+2024-11-15 22:55:45,820 | WARNING | Goodbye!
+2024-11-15 22:58:54,268 | INFO | go
+2024-11-15 22:58:54,527 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-15 22:58:55,212 | WARNING | Updates were skipped successfully.
+2024-11-15 22:58:55,213 | INFO | Start polling.
+2024-11-15 22:59:11,175 | INFO | Производится расчет для Eugene 
+2024-11-15 22:59:14,312 | INFO | Регистрация...
+2024-11-15 23:00:00,118 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=OperationalError('near "@mail": syntax error')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_5.py", line 76, in set_age
+    await add_user(data["username"], data["email"], data["age"])
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\crud_functions.py", line 55, in add_user
+    cursor_u.execute(f"INSERT INTO Users VALUES({username}, {email}, {age}, 1000")
+sqlite3.OperationalError: near "@mail": syntax error
+2024-11-15 23:00:27,040 | INFO | Stop polling...
+2024-11-15 23:00:27,041 | WARNING | Goodbye!
+2024-11-15 23:55:45,539 | INFO | go
+2024-11-15 23:55:45,743 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-15 23:55:45,852 | WARNING | Updates were skipped successfully.
+2024-11-15 23:55:45,852 | INFO | Start polling.
+2024-11-15 23:56:01,079 | INFO | Производится расчет для Eugene 
+2024-11-15 23:57:02,332 | INFO | Расчет произведен
+2024-11-15 23:58:00,706 | INFO | Производится расчет для Eugene 
+2024-11-15 23:58:03,737 | INFO | Регистрация...
+2024-11-15 23:58:36,612 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-89' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=OperationalError('near "@ghj": syntax error')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_5.py", line 76, in set_age
+    await add_user(data["username"], data["email"], data["age"])
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\crud_functions.py", line 55, in add_user
+    cursor_u.execute(f"INSERT INTO Users VALUES({username}, {email}, {age}, 1000")
+sqlite3.OperationalError: near "@ghj": syntax error
+2024-11-16 00:01:18,922 | INFO | Stop polling...
+2024-11-16 00:01:18,922 | WARNING | Goodbye!
+2024-11-16 00:01:28,836 | INFO | go
+2024-11-16 00:01:30,477 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-16 00:01:30,582 | WARNING | Updates were skipped successfully.
+2024-11-16 00:01:30,582 | INFO | Start polling.
+2024-11-16 00:01:38,907 | INFO | Stop polling...
+2024-11-16 00:01:38,908 | WARNING | Goodbye!
+2024-11-16 00:01:41,687 | INFO | go
+2024-11-16 00:01:41,911 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-16 00:01:42,019 | WARNING | Updates were skipped successfully.
+2024-11-16 00:01:42,020 | INFO | Start polling.
+2024-11-16 00:02:04,818 | INFO | Производится расчет для Eugene 
+2024-11-16 00:02:07,642 | INFO | Регистрация...
+2024-11-16 00:02:50,447 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=OperationalError('near "@ghh": syntax error')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_5.py", line 76, in set_age
+    add_user(data["username"], data["email"], data["age"])
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\crud_functions.py", line 55, in add_user
+    cursor_u.execute(f"INSERT INTO Users VALUES({username}, {email}, {age}, 1000")
+sqlite3.OperationalError: near "@ghh": syntax error
+2024-11-16 00:03:23,006 | INFO | Stop polling...
+2024-11-16 00:03:23,007 | WARNING | Goodbye!
+2024-11-16 00:04:50,856 | INFO | go
+2024-11-16 00:04:51,065 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-16 00:04:51,212 | WARNING | Updates were skipped successfully.
+2024-11-16 00:04:51,213 | INFO | Start polling.
+2024-11-16 00:05:07,622 | INFO | Производится расчет для Eugene 
+2024-11-16 00:05:09,730 | INFO | Регистрация...
+2024-11-16 00:05:53,111 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=OperationalError('near "@fg": syntax error')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_5.py", line 77, in set_age
+    add_user(data["username"], data["email"], data["age"])
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\crud_functions.py", line 55, in add_user
+    cursor_u.execute(f"INSERT INTO Users VALUES({username}, {email}, {age}, 1000")
+sqlite3.OperationalError: near "@fg": syntax error
+2024-11-16 00:06:02,792 | INFO | Stop polling...
+2024-11-16 00:06:02,793 | WARNING | Goodbye!
+2024-11-16 00:07:09,343 | INFO | go
+2024-11-16 00:07:10,619 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-16 00:07:10,729 | WARNING | Updates were skipped successfully.
+2024-11-16 00:07:10,729 | INFO | Start polling.
+2024-11-16 00:07:30,527 | INFO | Производится расчет для Eugene 
+2024-11-16 00:07:32,500 | INFO | Регистрация...
+2024-11-16 00:08:00,524 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=OperationalError('near "@gh": syntax error')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_5.py", line 77, in set_age
+    add_user(data["username"], data["email"], data["age"])
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\crud_functions.py", line 55, in add_user
+    cursor_u.execute(f"INSERT INTO Users VALUES({username}, {email}, {age}, 1000")
+sqlite3.OperationalError: near "@gh": syntax error
+2024-11-16 00:08:41,748 | INFO | Stop polling...
+2024-11-16 00:08:41,749 | WARNING | Goodbye!
+2024-11-16 01:59:25,367 | INFO | go
+2024-11-16 01:59:25,587 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-16 01:59:25,701 | WARNING | Updates were skipped successfully.
+2024-11-16 01:59:25,702 | INFO | Start polling.
+2024-11-16 02:00:01,076 | INFO | Производится расчет для Eugene 
+2024-11-16 02:00:06,174 | INFO | Регистрация...
+2024-11-16 02:00:50,208 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'i' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_5.py", line 77, in set_age
+    add_user(data["username"], data["email"], data["age"])
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\crud_functions.py", line 54, in add_user
+    i#f is_included.fetchone() is None:
+NameError: name 'i' is not defined
+2024-11-16 02:02:16,200 | INFO | Stop polling...
+2024-11-16 02:02:16,202 | WARNING | Goodbye!
+2024-11-16 02:09:18,112 | INFO | go
+2024-11-16 02:09:18,327 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-16 02:09:18,433 | WARNING | Updates were skipped successfully.
+2024-11-16 02:09:18,434 | INFO | Start polling.
+2024-11-16 02:09:48,298 | INFO | Производится расчет для Eugene 
+2024-11-16 02:10:28,949 | INFO | Расчет произведен
+2024-11-16 02:10:46,525 | INFO | Stop polling...
+2024-11-16 02:10:46,526 | WARNING | Goodbye!
+2024-11-16 02:14:37,425 | INFO | go
+2024-11-16 02:14:37,705 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-16 02:14:37,828 | WARNING | Updates were skipped successfully.
+2024-11-16 02:14:37,829 | INFO | Start polling.
+2024-11-16 02:14:52,660 | INFO | Производится расчет для Eugene 
+2024-11-16 02:14:57,957 | INFO | Регистрация...
+2024-11-16 02:15:34,514 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=OperationalError('near "@fgh": syntax error')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_5.py", line 77, in set_age
+    add_user(data["username"], data["email"], data["age"])
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\crud_functions.py", line 55, in add_user
+    cursor_u.execute(f"INSERT OR IGNORE INTO Users VALUES({username}, {email}, {age}, 1000")
+sqlite3.OperationalError: near "@fgh": syntax error
+2024-11-16 02:16:28,412 | INFO | Stop polling...
+2024-11-16 02:16:28,414 | WARNING | Goodbye!
+2024-11-16 02:16:45,035 | INFO | go
+2024-11-16 02:16:45,850 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-16 02:16:45,951 | WARNING | Updates were skipped successfully.
+2024-11-16 02:16:45,952 | INFO | Start polling.
+2024-11-16 02:16:50,185 | INFO | Регистрация...
+2024-11-16 02:17:19,990 | INFO | Регистрация закончена
+2024-11-16 02:17:35,336 | INFO | Регистрация закончена
+2024-11-16 02:17:44,255 | INFO | Регистрация закончена
+2024-11-16 02:19:14,746 | INFO | Stop polling...
+2024-11-16 02:19:14,747 | WARNING | Goodbye!
+2024-11-16 02:19:19,295 | INFO | go
+2024-11-16 02:19:19,516 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-16 02:19:19,620 | WARNING | Updates were skipped successfully.
+2024-11-16 02:19:19,621 | INFO | Start polling.
+2024-11-16 02:19:37,860 | INFO | Производится расчет для Eugene 
+2024-11-16 02:19:41,504 | INFO | Регистрация...
+2024-11-16 02:20:19,965 | INFO | Регистрация закончена
+2024-11-16 02:21:26,259 | INFO | Расчет произведен
+2024-11-16 02:22:26,100 | INFO | Stop polling...
+2024-11-16 02:22:26,101 | WARNING | Goodbye!
+2024-11-16 11:23:19,645 | INFO | go
+2024-11-16 11:23:20,034 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-16 11:23:20,157 | WARNING | Updates were skipped successfully.
+2024-11-16 11:23:20,157 | INFO | Start polling.
+2024-11-16 11:24:15,547 | INFO | Производится расчет для Eugene 
+2024-11-16 11:24:20,364 | INFO | Регистрация...
+2024-11-16 11:25:06,678 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=OperationalError('near "@typ": syntax error')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_5.py", line 77, in set_age
+    add_user(data["username"], data["email"], data["age"])
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\crud_functions.py", line 55, in add_user
+    cursor_u.execute(f"INSERT OR IGNORE INTO Users VALUES({username}, {email}, {age}, 1000")
+sqlite3.OperationalError: near "@typ": syntax error
+2024-11-16 11:29:32,557 | INFO | Stop polling...
+2024-11-16 11:29:32,559 | WARNING | Goodbye!
+2024-11-16 11:32:01,633 | INFO | go
+2024-11-16 11:32:01,936 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-16 11:32:02,048 | WARNING | Updates were skipped successfully.
+2024-11-16 11:32:02,049 | INFO | Start polling.
+2024-11-16 11:32:22,899 | INFO | Производится расчет для Eugene 
+2024-11-16 11:32:27,120 | INFO | Регистрация...
+2024-11-16 11:33:01,387 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=OperationalError('near "@45r": syntax error')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_5.py", line 77, in set_age
+    await add_user(data["username"], data["email"], data["age"])
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\crud_functions.py", line 55, in add_user
+    cursor_u.execute(f"INSERT OR IGNORE INTO Users VALUES({username}, {email}, {age}, 1000")
+sqlite3.OperationalError: near "@45r": syntax error
+2024-11-16 11:33:35,494 | INFO | Stop polling...
+2024-11-16 11:33:35,495 | WARNING | Goodbye!
+2024-11-16 11:43:25,541 | INFO | go
+2024-11-16 11:43:27,204 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-16 11:43:27,314 | WARNING | Updates were skipped successfully.
+2024-11-16 11:43:27,315 | INFO | Start polling.
+2024-11-16 11:43:43,691 | INFO | Производится расчет для Eugene 
+2024-11-16 11:43:55,362 | INFO | Stop polling...
+2024-11-16 11:43:55,365 | WARNING | Goodbye!
+2024-11-16 11:43:57,607 | INFO | go
+2024-11-16 11:44:39,790 | INFO | go
+2024-11-16 11:44:40,269 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-16 11:44:40,695 | WARNING | Updates were skipped successfully.
+2024-11-16 11:44:40,697 | INFO | Start polling.
+2024-11-16 11:45:05,791 | INFO | Производится расчет для Eugene 
+2024-11-16 11:45:09,767 | INFO | Регистрация...
+2024-11-16 11:45:53,408 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=OperationalError('near "@fdg": syntax error')>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_5.py", line 77, in set_age
+    await add_user(data["username"], data["email"], data["age"])
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\crud_functions.py", line 55, in add_user
+    cursor_u.execute(f"INSERT OR IGNORE INTO Users VALUES({username}, {email}, {age}, 1000")
+sqlite3.OperationalError: near "@fdg": syntax error
+2024-11-16 11:47:28,866 | INFO | Stop polling...
+2024-11-16 11:47:28,868 | WARNING | Goodbye!
+2024-11-16 11:51:05,156 | INFO | go
+2024-11-16 11:53:01,925 | INFO | go
+2024-11-16 11:54:59,206 | INFO | go
+2024-11-16 11:57:57,544 | INFO | go
+2024-11-16 12:01:52,311 | INFO | go
+2024-11-16 12:04:17,479 | INFO | go
+2024-11-16 12:04:32,263 | INFO | go
+2024-11-16 12:07:20,799 | INFO | go
+2024-11-16 12:10:29,296 | INFO | go
+2024-11-16 12:16:02,395 | INFO | go
+2024-11-16 12:19:16,998 | INFO | go
+2024-11-16 12:26:23,447 | INFO | go
+2024-11-16 12:28:00,191 | INFO | go
+2024-11-16 12:39:17,199 | INFO | go
+2024-11-16 12:41:24,493 | INFO | go
+2024-11-16 13:08:53,040 | INFO | go
+2024-11-16 13:09:43,823 | INFO | go
+2024-11-16 13:38:59,157 | INFO | go
+2024-11-16 13:41:55,082 | INFO | go
+2024-11-17 02:33:31,444 | INFO | go
+2024-11-17 10:35:25,342 | INFO | go
+2024-11-17 10:38:45,020 | INFO | go
+2024-11-17 10:43:02,443 | INFO | go
+2024-11-17 10:44:23,397 | INFO | go
+2024-11-17 10:52:54,783 | INFO | go
+2024-11-17 10:54:46,188 | INFO | go
+2024-11-17 10:56:48,858 | INFO | go
+2024-11-17 10:57:07,392 | INFO | go
+2024-11-17 11:07:10,082 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-17 11:07:10,216 | WARNING | Updates were skipped successfully.
+2024-11-17 11:07:10,217 | INFO | Start polling.
+2024-11-17 11:07:34,332 | INFO | Производится расчет для Eugene 
+2024-11-17 11:07:36,610 | INFO | Регистрация...
+2024-11-17 11:08:56,266 | INFO | go
+2024-11-17 11:08:56,273 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("object NoneType can't be used in 'await' expression")>
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\my_files\module_14_5.py", line 77, in set_age
+    await add_user(data["username"], data["email"], data["age"])
+TypeError: object NoneType can't be used in 'await' expression
+2024-11-17 11:10:25,971 | INFO | Stop polling...
+2024-11-17 11:10:25,972 | WARNING | Goodbye!
+2024-11-17 11:15:54,624 | WARNING | Goodbye!
+2024-11-17 11:16:38,727 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-17 11:16:38,836 | WARNING | Updates were skipped successfully.
+2024-11-17 11:16:38,838 | INFO | Start polling.
+2024-11-17 11:16:49,728 | INFO | Производится расчет для Eugene 
+2024-11-17 11:16:54,086 | INFO | Регистрация...
+2024-11-17 11:19:49,805 | INFO | go
+2024-11-17 11:19:49,932 | INFO | Регистрация закончена
+2024-11-17 11:19:55,791 | ERROR | Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiohttp\client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiohttp\client.py", line 586, in _request
+    await resp.start(conn)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiohttp\client_reqrep.py", line 905, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiohttp\streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\-\PycharmProjects\module_13_14_bot\.venv\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2024-11-17 11:21:11,342 | INFO | Расчет произведен
+2024-11-17 11:21:35,866 | INFO | Stop polling...
+2024-11-17 11:21:35,867 | WARNING | Goodbye!
+2024-11-17 11:39:05,252 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-17 11:39:05,357 | WARNING | Updates were skipped successfully.
+2024-11-17 11:39:05,358 | INFO | Start polling.
+2024-11-17 11:39:57,594 | INFO | Производится расчет для Eugene 
+2024-11-17 11:40:05,205 | INFO | Регистрация...
+2024-11-17 11:40:54,135 | INFO | go
+2024-11-17 11:40:54,242 | INFO | Регистрация закончена
+2024-11-17 11:41:14,610 | INFO | Регистрация...
+2024-11-17 11:42:38,173 | INFO | go
+2024-11-17 11:42:38,270 | INFO | Регистрация закончена
+2024-11-17 11:43:01,959 | INFO | Stop polling...
+2024-11-17 11:43:01,960 | WARNING | Goodbye!
+2024-11-17 11:53:44,047 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-17 11:53:44,147 | WARNING | Updates were skipped successfully.
+2024-11-17 11:53:44,148 | INFO | Start polling.
+2024-11-17 11:53:57,768 | INFO | Производится расчет для Eugene 
+2024-11-17 11:54:39,926 | INFO | Stop polling...
+2024-11-17 11:54:39,926 | WARNING | Goodbye!
+2024-11-17 11:57:50,179 | INFO | Bot: Renyxabot [@Renyxabot]
+2024-11-17 11:57:50,280 | WARNING | Updates were skipped successfully.
+2024-11-17 11:57:50,281 | INFO | Start polling.
+2024-11-17 11:58:00,718 | INFO | Производится расчет для Eugene 
+2024-11-17 11:58:11,630 | INFO | Регистрация...
+2024-11-17 11:59:18,833 | INFO | go
+2024-11-17 11:59:19,239 | INFO | Регистрация закончена
+2024-11-17 12:00:04,375 | INFO | Расчет произведен
+2024-11-17 12:01:00,205 | INFO | Stop polling...
+2024-11-17 12:01:00,206 | WARNING | Goodbye!

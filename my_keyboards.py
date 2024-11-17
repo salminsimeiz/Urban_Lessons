@@ -5,8 +5,9 @@ kb = ReplyKeyboardMarkup(resize_keyboard=True)
 button = KeyboardButton(text="Рассчитать")
 button_2 = KeyboardButton(text="Информация")
 button_buy = KeyboardButton(text="Купить витамины")
-kb.add(button, button_2)
-kb.add(button_buy)
+button_reg = KeyboardButton(text="Регистрация")
+kb.add(button_reg, button_2)
+kb.add(button, button_buy)
 
 kb_inline = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text="Рассчитать норму калорий", callback_data="calories"),
